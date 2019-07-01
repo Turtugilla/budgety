@@ -12,6 +12,26 @@ var budgetController = (function () {
         this.description = description;
         this.value = value;
     };
+
+
+    var data = {
+        allItems: {
+            exp: [],
+            inc: []
+        },
+        totals: {
+            exp: 0,
+            inc: 0
+        }
+    }
+
+    return {
+        addItem: function (type, des, val) {
+            var newItem;
+            new Item = new Expense(ID, des, val);
+
+        }
+    };
 })();
 
 
